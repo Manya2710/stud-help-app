@@ -1,0 +1,99 @@
+{/* <div className="z-40 mt-20">
+      <h2 className="text-2xl font-bold mb-4 ">📝 Save your important notes here.</h2>
+      <div className="flex gap-2 mb-4 max-w-md">
+        <input
+          type="text"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+          className="flex-1 border px-3 py-2 rounded"
+          placeholder="Enter a task"
+        />
+        <button onClick={handleAdd} className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Add</button>
+      </div>
+      {err && <div className="text-xl text-red-500">Login/Signup to store notes.</div>}
+      <ul className="space-y-2">
+        {todos.length===0?(<p className="text-gray-500">No tasks yet.</p>):(
+          [...todos].sort((a, b) => a.completed - b.completed).map((todo) => (
+          <li key={todo._id} className="border p-2 rounded flex justify-between items-center">
+        <div className="flex items-center gap-2">
+          <span className={todo.completed ? "line-through text-gray-500" : ""}>
+            {todo.title}
+          </span>
+        </div>
+        <button onClick={() => deleteTask(todo._id)} className="bg-red-500 text-white px-2 py-1 rounded">Delete</button>
+      </li>
+    ))
+)}
+
+      </ul>
+      </div> */}
+
+
+
+
+
+
+
+
+      
+      {/* <CreateTaskModal
+        handleCreateModalClose={handleCreateModalClose}
+        showCreateModal={showCreateModal}
+        setTasks={setTasks}
+      /> */}
+
+      {/* <UpdateTaskModal
+        handleUpdateModalClose={handleUpdateModalClose}
+        showUpdateModal={showUpdateModal}
+        id={updatedTaskId}
+        setTasks={setTasks}
+      />
+
+      <ViewTaskModal
+        handleViewModalClose={handleViewModalClose}
+        showViewModal={showViewModal}
+        id={viewTaskId}
+      /> */}
+
+
+
+
+
+
+
+
+      
+    const [show, setShow] = useState(false);
+  const [showCreateModal, setShowCreateModal] = useState(false);
+  const [showUpdateModal, setShowUpdateModal] = useState(false);
+  const [showViewModal, setShowViewModal] = useState(false);
+  const [viewTaskId, setViewTaskId] = useState(null);
+  const [updatedTaskId, setUpdateTaskId] = useState(null);
+
+
+
+
+
+
+
+
+   {/* <Tools />  */}
+        {/* <div className=" border-1 bg-amber-200 border-amber-500 mt-5 shadow-2xl listOfTools">
+          {[
+            ["AI Assistant", "Get instant help with your doubts"],
+            ["To-Do List", "Stay productive with daily goals", "./ToDoList" ],
+            ["Syllabus Manager", "Track your syllabus with ease", "./Syllabus"],
+            ["Study Timer", "Focus with Pomodoro-style tracking", "./Timer"],
+            ["Logic Games", "Sharpen your mind during breaks"],
+            ["Community Chat", "Connect and collaborate with peers"],
+            ["Notes", "Store your precious notes at one place", "./Notes"]
+          ].map(([title, desc, link], idx) => (
+            <div key={idx} className="p-4  border-1 border-amber-400">
+              <Link key={idx} to={link} >
+              <h3 className="font-semibold text-green-600">{title}</h3>
+              <button className="text-sm text-gray-700 hover:text-white" >{desc}</button>
+              </Link>
+            </div>
+          ))}
+        </div>
+         */}
