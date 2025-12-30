@@ -19,7 +19,7 @@ import Fileupload from './components/Fileupload'
 
 function App() {
   return (
-    <div className='m-[-32px]  lg:-mx-10 xl:-mx-24 min-h-screen'>
+    <div className='m-[-32px] -mx-24 lg:-mx-10 xl:-mx-40  min-h-screen'>
       <Nav/>
     <Routes>
       {/* <Route path='/Nav' element={<Nav/>}/> */}
